@@ -129,13 +129,15 @@ revealOnScroll();
 
 const form = document.querySelector(".contact-form form");
 
-form.addEventListener("submit", function (e) {
-  e.preventDefault();
+if (form) {
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
 
-  alert("Thank you! Your message has been sent successfully.");
+    alert("Thank you! Your message has been sent successfully.");
 
-  form.reset();
-});
+    form.reset();
+  });
+}
 
 // ==========================================
 // BUTTON HOVER EFFECT

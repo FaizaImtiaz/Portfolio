@@ -1338,8 +1338,8 @@ footer hr {
   height: 50px;
   border: none;
   outline: none;
-  background: var(--light-accent);
-  color: var(--white);
+  /* background: var(--light-accent); */
+  /* color: var(); */
   border-radius: 50%;
   cursor: pointer;
   font-size: 1.2rem;
@@ -1423,3 +1423,15 @@ footer hr {
   }
 }
 
+.top-btn {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+  z-index: 999;
+}
